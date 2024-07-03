@@ -33,7 +33,7 @@ test("One dollar should be 146.261 yen", function() {
     expect(yen).toBe(expected);
 });
 
-test("From Yen to Pounds should be correct", function() {
+test("From Yen to Pounds should be 0.0055591054313099", function() {
     const pounds = fromYenToPound(3.5);
     // must make the same operation as the function
     const expected = (3.5 / 156.5) * 0.87;
